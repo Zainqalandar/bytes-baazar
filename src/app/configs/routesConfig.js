@@ -41,19 +41,19 @@ const routes = [
     },
     {
         path: '/task-logs',
-        element: <TaskLogs />,
+        // element: <TaskLogs />,
         // rethinkComment:
         auth: settingsConfig.defaultAuth,
     },
     {
         path: '/users',
-        element: <Users />,
+        // element: <Users />,
         // rethinkComment:
         auth: settingsConfig.defaultAuth,
     },
     {
         path: '/Reports',
-        element: <Reports />,
+        // element: <Reports />,
         // rethinkComment:
         auth: settingsConfig.defaultAuth,
     },
@@ -65,7 +65,7 @@ const routes = [
         children : [
             {
                 path: '/teams/team-one',
-                element: <TeamOne />,
+                // element: <TeamOne />,
                 // rethinkComment:
                 auth: settingsConfig.defaultAuth,
             },
