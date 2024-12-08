@@ -9,7 +9,7 @@ import { getAuth, GoogleAuthProvider  } from "firebase/auth"
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCHAEz2JAwYBDGIEEqBhV4N6Kh1zJ5i-XY",
-  authDomain: "https://bytes-baazar.vercel.app/",
+  authDomain: "react-fuse-auth.firebaseapp.com",
   projectId: "react-fuse-auth",
   storageBucket: "react-fuse-auth.appspot.com",
   messagingSenderId: "810734322441",
